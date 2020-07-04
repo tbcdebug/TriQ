@@ -64,6 +64,10 @@ public:
 			nQ = 16;
 			data_file = "config/Aspen1";
 		}
+		else if(name == "1a"){
+			nQ = 16;
+			data_file = "config/1a";
+		}
 		else if(name == "Aspen3"){
 			nQ = 14;
 			data_file = "config/Aspen3";

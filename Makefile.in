@@ -265,7 +265,7 @@ top_builddir = @top_builddir@
 top_srcdir = @top_srcdir@
 AUTOMAKE_OPTIONS = foreign
 triq_SOURCES = src/backtrack.cpp src/circuit.cpp src/expt.cpp src/gate.cpp src/machine.cpp src/mapper.cpp src/optimize_1q.cpp src/pattern.cpp src/quaternion.cpp src/targetter.cpp
-AM_LDFLAGS = -lz3 -lboost_system$(BOOST_LIB_SUFFIX) 
+AM_LDFLAGS =  -lz3 -lboost_system$(BOOST_LIB_SUFFIX) 
 triq_CXXFLAGS = -std=c++11
 all: all-am
 
